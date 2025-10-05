@@ -76,7 +76,7 @@ namespace CalamityEntropy.Content.Projectiles
             target.AddBuff(ModContent.BuffType<JailerWhipDebuff>(), 240);
             Main.player[Projectile.owner].MinionAttackTargetNPC = target.whoAmI;
             Projectile.damage = (int)(Projectile.damage * 0.85f);
-            target.AddBuff(ModContent.BuffType<BurningBlood>(), 240);
+            target.AddBuff(ModContent.BuffType<323>(), 240);
         }
 
         private void DrawLine(List<Vector2> list)
